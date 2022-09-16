@@ -2,12 +2,30 @@ body, html {
   height: 100%;
 }
 
+* {
+   font-family: 'Russo One', sans-serif ;
+}
 .parallax {
   /* The image used */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQhgARJeGtKthTFusU_OdiOlvQg9h9x_FeNQ&usqp=CAU");
+  background-image: url("https://c.tenor.com/h99LcQQLxp0AAAAC/car-hd-wallpapers.gif");
 
   /* Full height */
-  height: 300px;
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax-2 {
+  /* The image used */
+  background-image: url("./wallpaperflare.com_wallpaper\ \(1\).jpg");
+
+  /* Full height */
+  height: 600px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -17,6 +35,48 @@ body, html {
 }
 
 .features-container {
-  background-color: rgb(24, 24, 24);
+  background-color: black;
   color: lightgray;
+}
+
+.parallax-3{
+    /* The image used */
+  background-image: url("./wallpaperflare.com_wallpaper.jpg");
+
+  /* Full height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features-container {
+  background-color: black;
+  color: lightgray;
+}
+
+
+#hero-text {
+  position: relative;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
