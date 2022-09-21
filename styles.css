@@ -59,7 +59,7 @@ body, html {
 }
 
 
-#hero-text {
+/* #hero-text {
   position: relative;
   font-size: 2em;
   letter-spacing: 4px;
@@ -79,4 +79,4 @@ body, html {
   100% {
     background-position: 500%;
   }
-}
+} */
