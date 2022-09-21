@@ -3,7 +3,7 @@ body, html {
 }
 
 * {
-   font-family: 'Russo One', sans-serif ;
+   font-family: 'Gilroy', sans-serif ;
 }
 .parallax {
   /* The image used */
@@ -58,6 +58,11 @@ body, html {
   color: lightgray;
 }
 
+
+@font-face {
+  font-family: Gilroy;
+  src: url(Gilroy-Medium.ttf);
+}
 
 /* #hero-text {
   position: relative;
