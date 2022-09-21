@@ -34,10 +34,6 @@ body, html {
   background-size: cover;
 }
 
-.features-container {
-  background-color: black;
-  color: lightgray;
-}
 
 .parallax-3{
     /* The image used */
@@ -54,8 +50,9 @@ body, html {
 }
 
 .features-container {
-  background-color: black;
-  color: lightgray;
+  background-color: rgb(158, 158, 158);
+  color: black;
+  border: 6px solid black
 }
 
 
