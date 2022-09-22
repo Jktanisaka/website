@@ -51,10 +51,20 @@ body, html {
 
 .features-container {
   background-color: rgb(158, 158, 158);
-  color: black;
+  color: white;
+  text-shadow: black 0px 0px 4px;
   border: 6px solid black
 }
 
+.contact-section {
+  color: white;
+  text-shadow: black 0px 0px 4px;
+  border: 6px solid black
+}
+
+.bg-gray {
+  background-color: rgb(158, 158, 158);
+}
 
 @font-face {
   font-family: Gilroy;
