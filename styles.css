@@ -4,6 +4,7 @@ body, html {
 
 * {
    font-family: 'Gilroy', sans-serif ;
+   overflow-x: hidden;
 }
 .parallax {
   /* The image used */
